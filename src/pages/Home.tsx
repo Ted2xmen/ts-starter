@@ -1,9 +1,15 @@
+import styled from 'styled-components';
 import Counter from '../features/counter/Counter';
+
+const Title = styled.h1`
+  font-size: 50px;
+  color: red; // This is a test};
+`;
 
 function Home() {
   return (
-    <div className="App">
-      <h1>Vite + React</h1>
+    <div>
+      <Title>Vite + React</Title>
       <Counter />
     </div>
   );
