@@ -15,6 +15,7 @@ export default function Counter() {
         <h2>{title}</h2>
         <button
           type="button"
+          className="btn"
           aria-label="Increment value"
           onClick={() => dispatch(increment())}
         >
@@ -22,6 +23,7 @@ export default function Counter() {
         </button>
         <span>{count}</span>
         <button
+          className="btn"
           type="button"
           aria-label="Decrement value"
           onClick={() => dispatch(decrement())}
